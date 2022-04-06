@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+ #inicio
+{
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*position:relative;*/
+}
+ /**/
+.bg-image{
+
+    height: 400px;
+
+}
+
+.blog{
+  display: flex;
+  flex-direction: row;
+  align-content: center space-around;
+  margin: 20px;
+  padding: 10px;
+}
+
+.blog-image{
+  width: 200px;
+  padding: 5px;
+}
+
+.blog-text{
+  background-color: whitesmoke;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-around;
+  
+}
+
+.blog-text h3{
+  padding: 10px;
+}
+
+
+
+#blog
+{
+    background-position-y: top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*position:relative;*/
+}
+
+.container{
+  display: flex;
+  align-content: space-around center;
+  background-color: whitesmoke;
+  margin: 80px;
+}
+
+.container4{
+  
+  background-color: whitesmoke;
+  margin: 50px;
+  
+}
+
+.container4 h3{
+  padding: 10px;
+}
+
+.titulo-imagen
+{
+  padding: 10px;
+}
+
+.xp{
+  display: flex;
+  justify-content: space-between;
+}
+.detalle
+{
+  width: 400px;
+  padding: 7px;
+  margin-left: 1px;
+  margin-right: 1px;
+  text-align: justify ;
+
+}
+.detalle h3{
+  text-align: center ;
+}
+.detalle p{
+  text-align: center ;
+}
+header{
+    width: 100%;
+    padding: 10px;
+    color: cornsilk;
+    text-align: center;
+    
+}
+
+h1{
+    color: #ffffff;
+}
+
+
+.container3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(46, 46, 46);
+    box-sizing: border-box;
+    align-content: space-around;
+    margin-top:100px;
+    transition: ease-in-out 0.3s;
+    justify-content: start;
+    width: 100%;
+}
+
+.container3 h2{
+    text-align: left;
+    margin-left: 100px;
+    font-size: 18px;
+    letter-spacing: 1.6px;
+    word-spacing: 0px;
+    text-decoration: none solid rgb(224, 224, 224);
+    text-shadow: 1px 1px 0px #7a7a7a;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;    
+    font-family: "Raleway", sans-serif;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 100px;
+    margin-inline-end: 0px;
+    color: #000000;
+    font-weight: 500;
+}
+
+
+.container3 h1{
+  color: white;
+  text-shadow: 2px 2px 0px #181818;
+  text-align: left;
+  margin-left: 110px;
+  font-size: 50px;
+ 
+}
+.m a{
+  color: white;
+  text-shadow: 2px 2px 0px #181818;
+  text-align: left;
+ 
+}
+
+
+.container3 a{
+    text-decoration: none;
+
+}
+
+.menu{
+  left: 0;
+  bottom: 0;
+  background-color: transparent;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  height: 5px;
+  padding: 10px 30px;
+  margin-top: 10px;
+  margin-left:80px;
+
+  opacity: 1;
+}
+
+.menu :hover{
+ background-color: rgb(51, 151, 151);
+ border-radius: 35px;
+}
+
+.nav-menu{
+    left: 0;
+    bottom: 0;
+    background-color: transparent;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10px;
+    padding: 10px 50px;
+    margin-top: 50px;
+    width: 100%;
+    opacity: 0.50;
+
+}
+.extra{
+    width:50%;
+}
+
+.nav-menu :hover{
+    opacity: 1;
+    
+}
+nav ul li:hover{
+    /*background: grey;*/
+    opacity: 1;
+    background-color: rgb(51, 151, 151);
+    border-radius: 35px;
+}
+
+nav{
+    background: transparent;
+}
+
+nav ul{
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 300ms;
+}
+
+ul li a{
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+        /*background: grey;*/
+        opacity: 1;
+}
+
+h1{
+    padding-top: 10px;
+}
+.grilla{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100% 100%;
+    gap: 2em;
+    text-align:center ;
+
+
+}
+
+.grilla-cv{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100% 100%;
+    gap: 2em;
+    text-align:center ;
+    align-content: center center;
+
+
+}
+
+.div-borde{
+    border: 2px;
+    border-radius: 10em;
+    border-style: solid;
+    justify-content:center;
+    display: inline;
+    text-align:center;
+}
+
+container-footer{
+    margin: 0 auto;
+  }
+
+  #foot{
+     margin-top: 120px;
+     width:100%;
+
+  }
+  .footer1 {
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    /*background: #F4F4F4;*/
+    background: transparent;
+    display: flex;
+    justify-content: flex-end;
+    height: 100px;
+    padding: 0px 50px;
+    margin-top: 5px;
+    width: 100%;
+
+  }
+  .footer {
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    /*background: #F4F4F4;*/
+    background: transparent;
+    display: flex;
+
+    height: 100px;
+    padding: 0px 50px;
+    margin-top: 5px;
+    width: 100%;
+
+  }
+  .footer-links {
+    display: flex;
+    align-items: center;
+  }
+  .footer-links a {
+    color: rgb(0, 0, 0);
+    opacity: 0.25;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 10px;
+  }
+  .footer-links a:hover {
+    opacity: 1;
+  }
+  .footer .fa-heart {
+    color: #D23333;
+  }
+  .footer-links1 {
+    display: flex;
+    align-items: center;
+  }
+  .footer-links1 a {
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 10px;
+  }
+  .footer-links1 a:hover {
+    opacity: 2;
+  }
+
+  .three p{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.6px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+  }
+  #demotext {
+    color: black;
+    text-shadow: 2px 2px 0px #f1f1f1;
+    color: black;
+
+  }
+
+
+  .vl{
+    border-left: 1px solid #38546d;
+    background: #16222c;
+    width: 1px;
+    height: 350px;
+
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
+    border-top: solid 3px hotpink;
+    border-bottom: solid 3px hotpink;
+    border-right: solid 3px hotpink;
+    border-left: solid 3px hotpink;
+    background-color: hotpink;
+
+  }
+  .two {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+    border-top: solid 3px greenyellow;
+    border-bottom: solid 3px greenyellow;
+    border-right: solid 3px greenyellow;
+    border-left: solid 3px greenyellow;
+    background-color: greenyellow;
+  }
+  .three {
+    grid-column: 1;
+    grid-row: 2 / 5;
+    border-top: solid 3px skyblue;
+    border-bottom: solid 3px skyblue;
+    border-right: solid 3px skyblue;
+    border-left: solid 3px skyblue;
+    background-color: skyblue;
+  }
+  .four {
+    grid-column: 3;
+    grid-row: 3;
+    border-top: solid 3px lightgoldenrodyellow;
+    border-bottom: solid 3px lightgoldenrodyellow;
+    border-right: solid 3px lightgoldenrodyellow;
+    border-left: solid 3px lightgoldenrodyellow;
+    background-color: lightgoldenrodyellow;
+
+  }
+  .five {
+    grid-column: 2;
+    grid-row: 3 / 5;
+    border-top: solid 3px plum;
+    border-bottom: solid 3px plum;
+    border-right: solid 3px plum;
+    border-left: solid 3px plum;
+    background-color: plum;
+  }
+  .six {
+    grid-column: 3;
+    grid-row: 4;
+
+    border-top: solid 3px orange;
+    border-bottom: solid 3px orange;
+    border-right: solid 3px orange;
+    border-left: solid 3px orange;
+    background-color: orange;
+  }
+.wrapper p{
+    /*text-decoration-line: underline ;*/
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.four ul li{
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 300ms;
+}
+.five ul li{
+    padding: 4px;
+    display: list-item;
+    list-style-type: none;
+    transition: all ease-in-out 300ms;
+}
+
+
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.box:nth-child(even) {
+  background-color: #ccc;
+  color: #000;
+}
+
+.wrapper2 {
+  width: 600px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: 100px 100px 100px;
+  grid-auto-flow: column;
+}
+
+
+.myButton {
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background-color:#eb675e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
